@@ -4,13 +4,6 @@ const AccountManager = require('../src/AccountManager');
 
 expect.extend(uuid_matcher);
 
-/*
-Account management
-    - ability to create an account
-    - ability to retreive account details
-    - ability to delete an account
-*/
-
 test('Account manager class type check', () => {
     expect(new AccountManager()).toBeInstanceOf(AccountManager)
 });
