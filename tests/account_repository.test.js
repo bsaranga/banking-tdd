@@ -1,5 +1,7 @@
-const Account = require('../src/Account');
-const AccountRepository = require('../src/AccountRepository');
+import Account from '../src/Account';
+import AccountRepository from '../src/AccountRepository';
+
+
 /*
 Account repository abstracts the database interaction from the AccountManager class. It is responsible for saving and retrieving accounts from the database. The AccountRepository class should have the following methods:
  - GetAllAccounts(): Account[] - returns all accounts from the database

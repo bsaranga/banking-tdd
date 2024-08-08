@@ -1,6 +1,6 @@
-const uuid_matcher = require('../jest_extensions/uuid_matcher');
-const Account = require('../src/Account');
-const AccountManager = require('../src/AccountManager');
+import uuid_matcher from '../jest_extensions/uuid_matcher';
+import Account from '../src/Account';
+import AccountManager from '../src/AccountManager';
 
 expect.extend(uuid_matcher);
 

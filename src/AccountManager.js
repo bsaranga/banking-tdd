@@ -1,4 +1,4 @@
-const Account = require("./Account");
+import Account from './Account';
 
 class AccountManager {
     #accountStore;
@@ -24,4 +24,4 @@ class AccountManager {
     }
 }
 
-module.exports = AccountManager
+export default AccountManager;
